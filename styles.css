@@ -1,13 +1,13 @@
 /* styles.css */
-body 
-    font-family: Arial, sans-serif;
+body { /* Lacks a bracket */
+    font-family: arial, sans-serif; 
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
     overflow-x: hidden;
 }
 
-heade {
+header { /* Wrong spelling of tag */
     background-color: #333;
     color: #fff;
     padding: 20px;
@@ -32,15 +32,15 @@ nav ul li a {
 
 main section {
     margin: 20px;
-
+} /* Lacks A bracket */
 
 footer {
     position: absolute;
-    bottom: 0
+    bottom: 0; /* Lacks Semi-Colon */
     right: 0;
     width: 100vw;
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align center;
+    text-align: center; /* Lacks a colon */
 }
